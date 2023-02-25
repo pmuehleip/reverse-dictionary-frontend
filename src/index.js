@@ -5,6 +5,9 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { sendToVercelAnalytics } from './vitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { inject } from '@vercel/analytics';
+
+inject();
 
 ReactDOM.render(
   <React.StrictMode>
