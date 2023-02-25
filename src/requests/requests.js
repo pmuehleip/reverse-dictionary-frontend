@@ -1,6 +1,7 @@
-const domain = process.env.API_URL;
+const domain = process.env.REACT_APP_API_URL;
 
 export async function postSearch(definition) {
+    console.log(process.env);
     const response = await fetch(domain + '/search', {
       method: 'POST',
       headers: {
