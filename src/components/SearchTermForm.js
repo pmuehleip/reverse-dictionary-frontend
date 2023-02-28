@@ -34,7 +34,7 @@ export function SearchTermForm({setLoading, setError, setSearchTermItems }) {
       <div>
         <Form onSubmit={handleSubmit}>
             <Row className="justify-content-md-center">
-                <Col md={7}>
+                <Col md={10}>
                     <Form.Group className="mb-3" controlId="formBasicEmail">
                         <Form.Control type="text" placeholder="Enter a definition or meaning" required value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)}/>
                     </Form.Group>
@@ -43,7 +43,7 @@ export function SearchTermForm({setLoading, setError, setSearchTermItems }) {
             </Row>
             <Row className="justify-content-md-center" md={5}>
               <Col>
-                <Button variant="primary" type="submit">Find</Button>
+                <Button variant="light" type="submit">Find</Button>
               </Col>
             </Row>
         </Form>
