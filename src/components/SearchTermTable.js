@@ -1,8 +1,6 @@
 import { Table } from 'react-bootstrap';
 
-
 export function SearchTermTable({SearchTermItems}) {
-
   return (
     <div>
       <Table striped>
