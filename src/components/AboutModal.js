@@ -18,7 +18,7 @@ export function AboutModal(props) {
       </Modal.Header>
       <Modal.Body>
         <p>
-        Welcome to the Reverse Dictionary tool, powered by OpenAI's GPT-3 API. This tool sets a new standard in reverse dictionary functionality, with unparalleled accuracy and efficiency. Don't take our word for it - compare it with the most popular reverse dictionary on the market: <a href="https://reversedictionary.org/">reversedictionary.org</a>
+        Welcome to FindMyWord, a simple reverse dictionary tool powered by OpenAI's GPT-3 API. This tool sets a new standard in reverse dictionary functionality, with unparalleled accuracy and efficiency. Don't take our word for it - compare it with the most popular reverse dictionary on the market: <a href="https://reversedictionary.org/">reversedictionary.org</a>
         </p>
 
         <h3>About the <span className='colorful-text'>Dev</span>eloper</h3>

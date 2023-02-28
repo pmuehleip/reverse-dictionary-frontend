@@ -26,7 +26,7 @@ export const Header = () => {
                     height={33}
                     className="d-inline-block align-top"
                     />&nbsp;&nbsp;
-                    <span class="navbar-brand mb-0 h1 fs-2">Reverse Dictionary</span>
+                    <span class="navbar-brand mb-0 h1 fs-2">FindMyWord</span>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-lg`} />
                 <Navbar.Offcanvas
