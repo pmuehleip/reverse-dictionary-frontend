@@ -4,8 +4,6 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
-import Stack from 'react-bootstrap/Stack';
-
 
 export function SearchTermForm({setLoading, setError, setSearchTermItems }) {
 
@@ -35,7 +33,7 @@ export function SearchTermForm({setLoading, setError, setSearchTermItems }) {
         <Form onSubmit={handleSubmit}>
             <Row className="justify-content-md-center">
                 <Col md={10}>
-                    <Form.Group className="mb-3" controlId="formBasicEmail">
+                    <Form.Group className="mb-3 mx-3" controlId="definition">
                         <Form.Control type="text" placeholder="Enter a definition or meaning" required value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)}/>
                     </Form.Group>
                     
