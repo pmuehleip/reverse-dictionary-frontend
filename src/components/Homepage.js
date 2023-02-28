@@ -54,8 +54,14 @@ const Homepage = () => {
         width: "100%"
       }}>
         <div>
-          <h1>Find that word you are looking for...</h1>
-          <div>A.I. Powered by GPT-3</div>
+          <h1><span style={{
+                  background: "linear-gradient(to right, #3E6DBF, #3E6DBF, #ea7fe0, #ff9ccb)",
+                  backgroundClip: "text",
+                  webkitBackgroundClip: "text",
+                  webkitTextFillColor: "transparent",
+                  fontWeight: "bolder"
+          }}>Find</span> that word you are looking for...</h1>
+          <div><i>A.I. Powered by GPT-3</i></div>
           <br/>
           {/* <Image src={magnifyGlassPNG} width={100} height={100} onClick={async ()=> {console.log(await getDefinitions("people"))}}></Image> */}
           <br/>
